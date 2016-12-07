@@ -1,0 +1,23 @@
+{
+  "name": "csonchen.github.com",
+  "homepage": "https://github.com/csonchen/csonchen.github.com",
+  "authors": [
+    "csonchen <cson_chensheng@163.com>"
+  ],
+  "description": "My online resume",
+  "main": "",
+  "keywords": [
+    "description"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
