@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="JavaScriptLibraryMappings">
-    <file url="file://$PROJECT_DIR$" libraries="{csonchen.github.com/node_modules}" />
-    <file url="PROJECT" libraries="{gruntjs-DefinitelyTyped}" />
-    <includedPredefinedLibrary name="ECMAScript 6" />
-    <includedPredefinedLibrary name="csonchen.github.com/node_modules" />
-  </component>
-</project>
