@@ -58,6 +58,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+body {
+  background: #ebebeb;
+}
+
 .main-header {
   background: url("../images/header.jpg") no-repeat center 20%;
   padding: 42px 0;
@@ -66,6 +70,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 .main-header .container {
   height: 200px;
+}
+
+.main-navigation {
+  margin-bottom: 35px;
+}
+
+.post {
+  padding: 35px;
+  background: #ffffff;
+  margin-bottom: 35px;
+}
+.post .post-head {
+  text-align: center;
+}
+.post .post-head .post-title {
+  margin: 0 0 20px;
+  font-size: 2.5em;
+  line-height: 1em;
+}
+.post .post-content {
+  color: #ffffff;
+}
+.post .post-content .item {
+  margin-bottom: 20px;
+}
+.post .post-content .item-content {
+  background-color: #2472a4;
+  border-radius: 6px;
+  padding: 15px;
+}
+.post .post-content .item-content .logo {
+  max-width: 80px;
+  max-height: 80px;
+  float: left;
+  margin-right: 20px;
+}
+.post .post-content .item-content h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 24px;
 }
 
 /*# sourceMappingURL=screen.css.map */
