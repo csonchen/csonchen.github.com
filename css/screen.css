@@ -60,53 +60,71 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 body {
   background: #ebebeb;
+  font-family: Lato, "Microsoft YaHei", sans-serif;
 }
 
-.main-header {
-  background: url("../images/header.jpg") no-repeat center 20%;
-  padding: 42px 0;
-  background-size: cover;
-  -webkit-background-size: cover;
-}
-.main-header .container {
-  height: 200px;
-}
-
-.main-navigation {
-  margin-bottom: 35px;
-}
-
-.post {
-  padding: 35px;
-  background: #ffffff;
-  margin-bottom: 35px;
-}
-.post .post-head {
+.center {
   text-align: center;
 }
-.post .post-head .post-title {
-  margin: 0 0 20px;
+
+.pp-section {
+  color: #eef3f0;
+}
+
+h4 {
+  font-size: 1.3em;
+  margin: 5px 0;
+}
+
+.area1 {
+  background: url("../images/header.jpg") no-repeat center 20%;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.area1 .me {
+  width: 200px;
+  height: 250px;
+  border-radius: 50%;
+  border: 10px solid #767071;
+}
+.area1 .title {
+  font-size: 4em;
+  text-shadow: 1px 2px #767071, 2px 4px #61595a;
+  margin: 30px 0;
+}
+.area1 .description {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #cdcdcd;
+}
+.area1 .mail {
+  color: #cdcdcd;
+}
+
+.area2 {
+  background: #2472a4;
+}
+.area2 .head .title {
+  margin: 30px 0;
   font-size: 2.5em;
   line-height: 1em;
 }
-.post .post-content {
-  color: #ffffff;
-}
-.post .post-content .item {
+.area2 .post .item {
   margin-bottom: 20px;
 }
-.post .post-content .item-content {
-  background-color: #2472a4;
+.area2 .post .item-content {
+  background-color: #20638f;
   border-radius: 6px;
   padding: 15px;
 }
-.post .post-content .item-content .logo {
+.area2 .post .item-content .logo {
   max-width: 80px;
   max-height: 80px;
   float: left;
   margin-right: 20px;
 }
-.post .post-content .item-content h3 {
+.area2 .post .item-content h3 {
   margin: 0;
   color: #fff;
   font-size: 24px;

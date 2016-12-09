@@ -18,6 +18,7 @@
     "tests"
   ],
   "devDependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "pagePiling.js": "pagepiling.js#^1.5.3"
   }
 }
