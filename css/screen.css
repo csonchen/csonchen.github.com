@@ -59,7 +59,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 body {
-  background: #ebebeb;
+  background: #2472a4;
   font-family: Lato, "Microsoft YaHei", sans-serif;
 }
 
@@ -69,11 +69,28 @@ body {
 
 .pp-section {
   color: #eef3f0;
+  background: #2472a4;
 }
 
 h4 {
   font-size: 1.3em;
   margin: 5px 0;
+}
+
+h2 {
+  font-size: 2em;
+  border-bottom: 2px solid #fff;
+  text-align: left;
+  width: 200px;
+  line-height: 2em;
+}
+
+.head {
+  margin: 30px 0;
+}
+.head .title {
+  font-size: 2.5em;
+  line-height: 1em;
 }
 
 .area1 {
@@ -102,14 +119,6 @@ h4 {
   color: #cdcdcd;
 }
 
-.area2 {
-  background: #2472a4;
-}
-.area2 .head .title {
-  margin: 30px 0;
-  font-size: 2.5em;
-  line-height: 1em;
-}
 .area2 .post .item {
   margin-bottom: 20px;
 }
@@ -128,6 +137,46 @@ h4 {
   margin: 0;
   color: #fff;
   font-size: 24px;
+}
+
+.area3 h2 {
+  margin-bottom: 30px;
+}
+.area3 .mine {
+  text-align: left;
+  line-height: 28px;
+  padding: 15px 0;
+}
+.area3 .mine a {
+  color: #223960;
+}
+.area3 .resume li {
+  padding: 25px 0;
+  text-align: left;
+}
+.area3 .resume li .icon {
+  background-color: #FF851B;
+  border: 3px solid #2980B9;
+  border-radius: 100%;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 24px;
+  text-align: center;
+  position: relative;
+}
+.area3 .resume li .icon .line {
+  border-left: 3px solid #fff;
+  position: absolute;
+  height: 80px;
+  top: -18px;
+  z-index: -1;
+  left: 10px;
+}
+.area3 .resume li .description {
+  position: absolute;
+  line-height: 28px;
+  padding-left: 5px;
 }
 
 /*# sourceMappingURL=screen.css.map */
