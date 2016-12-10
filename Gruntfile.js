@@ -27,11 +27,24 @@ module.exports = function (grunt) {
           ext: '.min.css'
         }]
       }
+    },
+
+    // 压缩图片
+    imagemin: {
+      dist: {
+        files: [{
+          expand: true,
+          cwd: 'images',
+          src: '{,*/}*.{gif,jpeg,jpg,png}',
+          dest: 'dists'
+        }]
+      }
     }
   });
 
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
 
   grunt.registerTask('default', ['sass']);
 };

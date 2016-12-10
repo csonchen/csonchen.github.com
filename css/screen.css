@@ -185,16 +185,16 @@ h2 {
   max-width: 400px;
   line-height: 2em;
 }
-.area4 .content {
+.area4 .row {
   text-align: left;
 }
-.area4 .pconline p, .area4 .dianjoy p {
+.area4 .row p {
   line-height: 28px;
 }
-.area4 .pconline a, .area4 .dianjoy a {
+.area4 .row a {
   color: #223960;
 }
-.area4 .pconline span, .area4 .dianjoy span {
+.area4 .row span {
   color: #223960;
 }
 
