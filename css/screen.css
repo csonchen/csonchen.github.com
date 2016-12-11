@@ -94,7 +94,7 @@ h2 {
 }
 
 .area1 {
-  background: url("../images/header.jpg") no-repeat center 20%;
+  background: url("../dist/images/header.jpg") no-repeat center 20%;
   width: 100%;
   height: 100%;
   background-size: cover;

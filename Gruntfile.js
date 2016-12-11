@@ -36,15 +36,21 @@ module.exports = function (grunt) {
           expand: true,
           cwd: 'images',
           src: '{,*/}*.{gif,jpeg,jpg,png}',
-          dest: 'dists'
+          dest: 'dist/images'
         }]
       }
+    },
+
+    // 删除文件
+    clean: {
+      css: ['css/*.css']
     }
   });
 
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-contrib-clean');
 
   grunt.registerTask('default', ['sass']);
 };
